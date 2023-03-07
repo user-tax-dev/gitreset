@@ -6,13 +6,13 @@ specifiers:
   chalk: ^5.2.0
   coffee_plus: ^0.0.55
   debug: ^4.3.4
-  simple-git: ^3.16.1
+  simple-git: ^3.17.0
 
 dependencies:
   '@u6x/jsext': 0.0.27
   chalk: 5.2.0
   debug: 4.3.4
-  simple-git: 3.16.1
+  simple-git: 3.17.0
 
 devDependencies:
   '@u7/node-loader': 0.0.49
@@ -175,8 +175,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /simple-git/3.16.1:
-    resolution: {integrity: sha512-xzRxMKiy1zEYeHGXgAzvuXffDS0xgsq07Oi4LWEEcVH29vLpcZ2tyQRWyK0NLLlCVaKysZeem5tC1qHEOxsKwA==}
+  /simple-git/3.17.0:
+    resolution: {integrity: sha512-JozI/s8jr3nvLd9yn2jzPVHnhVzt7t7QWfcIoDcqRIGN+f1IINGv52xoZti2kkYfoRhhRvzMSNPfogHMp97rlw==}
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1

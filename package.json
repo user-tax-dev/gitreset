@@ -22,7 +22,7 @@
     "@u6x/jsext": "^0.0.27",
     "chalk": "^5.2.0",
     "debug": "^4.3.4",
-    "simple-git": "^3.16.1"
+    "simple-git": "^3.17.0"
   },
   "version": "0.0.8"
 }
