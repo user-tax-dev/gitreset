@@ -4,7 +4,7 @@ specifiers:
   '@u6x/jsext': ^0.0.27
   '@u7/node-loader': ^0.0.49
   chalk: ^5.2.0
-  coffee_plus: ^0.0.55
+  coffee_plus: ^0.0.58
   debug: ^4.3.4
   simple-git: ^3.17.0
 
@@ -16,7 +16,7 @@ dependencies:
 
 devDependencies:
   '@u7/node-loader': 0.0.49
-  coffee_plus: 0.0.55
+  coffee_plus: 0.0.58
 
 packages:
 
@@ -47,12 +47,20 @@ packages:
       coffeescript: 2.7.0
     dev: true
 
+  /@u7/walk/0.0.10:
+    resolution: {integrity: sha512-SSmv/sRSylKEB7oU9DTXtSkr922D/9n2JJqsilL6cHVpLWMix22sKqA2ZHDdkBRkeTTTnnyxOXaZGTt2ZIGdsA==}
+    dev: true
+
   /@u7/walk/0.0.8:
     resolution: {integrity: sha512-4VUVWDvEDNOFQXzeP8uPQ+PStd62cqVM+U85nbyP7DgSTBe2rTN4HDdicEYXHgAMCbZ/mQ1VTcPJWUnFzx5F7Q==}
     dev: true
 
   /@u7/write/0.0.8:
     resolution: {integrity: sha512-cas5IbKVQzbZieMFfo4lEJ3tn4wLme40hXHjkgt2EWuqpklbxFu5DI/eR20whM+XLOz3y+NxVuNXy5zXuRqdIw==}
+    dev: true
+
+  /@u7/write/0.0.9:
+    resolution: {integrity: sha512-50PbebAab1VHZUF49CdP6l60UKJFti081mNnPg5ZcPzAgUlTK0xS9dFNJv30wtBp/h+/AL0/ZOfLpmjjb1/7CA==}
     dev: true
 
   /ansi-regex/5.0.1:
@@ -91,6 +99,18 @@ packages:
       fs-extra: 11.1.0
       lodash-es: 4.17.21
       yargs: 17.7.0
+    dev: true
+
+  /coffee_plus/0.0.58:
+    resolution: {integrity: sha512-EIfbi4qV+TcsoHaVnwA6BnfiMbIfb2w19EEGWwkeJmbI+n3fxajUg3fnYtMeEAJYh0WGUufJ/x6Bq/CuS1TgVw==}
+    hasBin: true
+    dependencies:
+      '@u7/camel': 0.0.28
+      '@u7/walk': 0.0.10
+      '@u7/write': 0.0.9
+      fs-extra: 11.1.0
+      lodash-es: 4.17.21
+      yargs: 17.7.1
     dev: true
 
   /coffeescript/2.7.0:
@@ -227,6 +247,19 @@ packages:
 
   /yargs/17.7.0:
     resolution: {integrity: sha512-dwqOPg5trmrre9+v8SUo2q/hAwyKoVfu8OC1xPHKJGNdxAvPl4sKxL4vBnh3bQz/ZvvGAFeA5H3ou2kcOY8sQQ==}
+    engines: {node: '>=12'}
+    dependencies:
+      cliui: 8.0.1
+      escalade: 3.1.1
+      get-caller-file: 2.0.5
+      require-directory: 2.1.1
+      string-width: 4.2.3
+      y18n: 5.0.8
+      yargs-parser: 21.1.1
+    dev: true
+
+  /yargs/17.7.1:
+    resolution: {integrity: sha512-cwiTb08Xuv5fqF4AovYacTFNxk62th7LKJ6BL9IGUpTJrWoU7/7WdQGTP2SjKf1dUNBGzDd28p/Yfs/GI6JrLw==}
     engines: {node: '>=12'}
     dependencies:
       cliui: 8.0.1
